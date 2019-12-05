@@ -1,3 +1,4 @@
+<?php
 //fonction connexion a la bbd
 if(!function_exists("get_pdo")) {
   function get_pdo () {
