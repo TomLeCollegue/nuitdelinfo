@@ -6,5 +6,5 @@ $bdd->query("CREATE TABLE IF NOT EXISTS `questions` (
     `tag` int NOT NULL,
     `date` DATE NOT NULL,
     `valid` boolean,
-    PRIMARY KEY (`id_membre`)
+    PRIMARY KEY (`id_question`)
   );");
